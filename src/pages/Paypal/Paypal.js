@@ -1,7 +1,8 @@
-import React from 'react'
+import { styles } from './paypalStyles'
 
 export const Paypal = () => {
+  const classes = styles()
   return (
-    <div>Paypal</div>
+    <div className={ classes.color }>Paypal</div>
   )
 }

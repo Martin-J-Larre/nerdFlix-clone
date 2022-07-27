@@ -1,7 +1,8 @@
-import React from 'react'
+import { styles } from './signUpStyles'
 
 export const SignUp = () => {
+  const classes = styles();
   return (
-    <div>SignUp</div>
+    <div className={ classes.color }>SignUp</div>
   )
 }

@@ -1,7 +1,8 @@
-import React from 'react'
+import { styles } from './profileStyles'
 
 export const Profile = () => {
+  const classes = styles();
   return (
-    <div>Profile</div>
+    <div className={ classes.color }>Profile</div>
   )
 }

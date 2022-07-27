@@ -1,7 +1,8 @@
-import React from 'react'
+import { styles } from './loginStyles'
 
 export const Login = () => {
+  const classes = styles()
   return (
-    <div>Login</div>
+    <div className={classes.color}>Login</div>
   )
 }
