@@ -10,7 +10,7 @@ export const Routers = () => {
     return (
         <>
             <BrowserRouter>
-                {!user ? (
+                { !user ? (
                     <Login />
                 ) : (
                     <Routes>
